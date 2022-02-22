@@ -10,11 +10,12 @@
   align-items: center;
  }
  .profile-card {
-    margin-top: 17%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     background-color: hsla(0, 0%, 100%, .7);
     border-radius: 10px;
     box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
-    width: 480px;
+    width: 500px;
     max-width: calc(100vw - 15px);
   }   
 body {
@@ -53,7 +54,11 @@ color: #421400;
     font-size: 22px;
     font-family: Poppins;
     color: #421400;
+    border-top: 1px solid #421400;
+    
 }
 .job, .description {
+    margin-top:5%;
+    margin: 0 auto;
     margin-bottom: 10%;
 }
