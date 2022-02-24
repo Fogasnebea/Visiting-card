@@ -10,14 +10,19 @@
   align-items: center;
  }
  .profile-card {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 8%;
+    margin-bottom: 8%;
     background-color: hsla(0, 0%, 100%, .7);
     border-radius: 10px;
     box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
     width: 500px;
     max-width: calc(100vw - 15px);
-  }   
+    }
+  
+  .profile-image {
+    margin-top: -40px;
+    text-align: center;
+} 
 body {
     background-image: url('https://images.unsplash.com/photo-1569021998480-a68f22f6ba86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
     background-repeat: no-repeat;
@@ -25,6 +30,19 @@ body {
     background-attachment: fixed;
     background-size: cover;
     }
+img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    padding: 1px;
+    background-color: #421400;
+    filter: grayscale(50%);
+}
+img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(40%);
+  }
 
 ul {
   list-style-type: none;
@@ -46,7 +64,7 @@ color: #421400;
 .job {
     text-align: center;
     font-size: 30px;
-    font-family: Playfair Display;
+    font-family: "Playfair Display";
     color: #421400;
 }
 .description {
@@ -58,7 +76,8 @@ color: #421400;
     
 }
 .job, .description {
-    margin-top:5%;
+    margin-top: 5%;
     margin: 0 auto;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
+
