@@ -80,4 +80,7 @@ color: #421400;
     margin: 0 auto;
     margin-bottom: 5%;
 }
-
+a {
+    color: #421400;
+    font-size: 22px;
+}
